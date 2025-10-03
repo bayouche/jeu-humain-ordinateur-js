@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jeu Humain vs Ordinateur</title>
+    <link rel="stylesheet" href="jeu.css" >
+    <script src="jeu.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Jeu : Humain vs Ordinateur</h1>
+
+        <div class="zone">Tirage Humain : <span class="value" id="tirage Humain">-</span></div>
+        <div class="zone">Tirage Ordinateur : <span class="value" id="tirage Ordi">-</span></div>
+        <div class="zone">Score Humain (partie) : <span class="value" id="score Humain">0</span></div>
+        <div class="zone">Score Ordinateur (partie) : <span class="value" id="score Ordi">0</span></div>
+        <div class="zone">Score Total Humain : <span class="value" id="total Humain">0</span></div>
+        <div class="zone">Score Total Ordinateur : <span class="value" id="total Ordi">0</span></div>
+
+        <button id="btnTirer" onclick="jouer()">Tirer</button>
+        <button id="btnRejouer" onclick="resetPartie()">Rejouer</button>
+        <button id="btnResetAll" onclick="resetTout()">Réinitialiser tout</button>
+
+        <div class="winner" id="message"></div>
+
+    </div>
+</body>
+</html>

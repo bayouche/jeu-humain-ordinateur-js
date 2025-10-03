@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 550px;
+    width: 100%;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.zone {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.value {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 10px 8px;
+    transition: 0.3s ease;
+    color: white;
+}
+
+#btnTirer {
+    background: #3498db;
+}
+
+#btnTirer:hover {
+    background: #2980b9;
+}
+
+#btnRejouer {
+    background: #27ae60;
+   
+}
+
+#btnRejouer:hover {
+    background: #1e8449;
+}
+
+#btnResetAll {
+    background: #e74c3c;
+}
+
+#btnResetAll:hover {
+    background: #c0392b;
+}
+
+.winner {
+    font-size: 18px;
+    color: #2ecc71;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.history {
+    margin-top: 25px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    border-radius: 15px;
+    max-height: 200px;
+    overflow-y: auto;
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
