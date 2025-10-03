@@ -48,10 +48,13 @@ function afficherFin(message) {
 function resetPartie() {
     scoreHumain = 0;
     scoreOrdi = 0;
+    
+    // CORRECTION : IDs avec espaces
     document.getElementById("score Humain").textContent = "0";
     document.getElementById("score Ordi").textContent = "0";
     document.getElementById("tirage Humain").textContent = "-";
     document.getElementById("tirage Ordi").textContent = "-";
+    
     document.getElementById("message").textContent = "";
     document.getElementById("btnTirer").style.display = "inline-block";
 }
@@ -60,7 +63,7 @@ function resetTout() {
     resetPartie();
     totalHumain = 0;
     totalOrdi = 0;
+    
     document.getElementById("total Humain").textContent = "0";
     document.getElementById("total Ordi").textContent = "0";
-    document.getElementById("logList").innerHTML = "";
 }
